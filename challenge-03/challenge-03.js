@@ -200,7 +200,7 @@ pessoa.apresentacao = function() {
     let metros = "metros";
 
     if(pessoa.sexo === "feminino") {
-        os = "a";
+        sexo = "a";
     }
     if(pessoa.idade === 1) {
         anos = "ano";

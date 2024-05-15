@@ -15,7 +15,7 @@ soma += 1;
 console.log("Incrementando +1 para soma: ", soma);
 
 // Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
-soma *=3;
+soma *= 3;
 console.log("Multiplicando por 3 o valor de soma: ", soma);
 
 // Qual é o valor da variável `soma` até aqui?
@@ -27,7 +27,7 @@ console.log("Declarando souninja como verdadeiro: ", souninja);
 
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
 let comida = ["arroz", "feijão", "ovo"];
-console.log("Declarando array comida: ", comida);
+console.log("Declarando comida como um array: ", comida);
 
 // Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.]
 console.log("Imprimindo o segundo item de comida: ", comida[1]);
@@ -42,7 +42,7 @@ console.log("myvar e menor ou igual a soma: ", myvar <= soma);
 function divisao(a, b){
     return a / b;
 }
+console.log("Criando a função divisão.");
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 console.log("Divisão de 10 por 2: ", divisao(10, 2));
-// 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Ninja</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" sizes="16x16">
+    <style>
+      div{
+        margin: 0 0 10px 0;
+      }
+    </style>
+</head>
+<body>
+    <h1>Challenge 25</h1>
+
+    <form action="#">
+        <div>
+            <label for="name">Nome Completo:</label>
+            <input data-js="name" type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="phone">Celular:</label>
+            <input data-js="phone" type="text" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="cpf">CPF:</label>
+            <input data-js="cpf" type="text" name="cpf" id="cpf">
+        </div>
+        <button data-js="btn-form" type="button">Limpar</button>
+    </form>
+
+    <div>
+      <p data-js="show-name"></p>
+      <p data-js="show-phone"></p>
+      <p data-js="show-cpf"></p>
+    </div>
+
+    <script src="challenge-25.js"></script>
+</body>
+</html>
